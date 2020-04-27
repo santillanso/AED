@@ -45,7 +45,7 @@ Mostrar la suma de dos números que ingresa el usuario. Escribir el código del 
 
 ## Diseño de la solución
 Utilizo Visual Code para editar el código fuente del programa que me permitirá al usuario realizar la operación solicitada.
-Sean x,y \in R / x+ y= s
+Sean x,y pertenecientes al conjunto de los números Reales: x+ y= s
 Donde s es el resultado de la operación que realizará el programa.
 Leer x, leer y; mostrar x+y.
 
