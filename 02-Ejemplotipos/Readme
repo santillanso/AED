@@ -1,26 +1,33 @@
-• Etapa #1: Análisis del Problema.
+## Santillanso
+### Legajo: 1288465
+### Apellido: Santillan
+### Nombre: Sonia
+## Trabajo 2 - Ejemplos de Valores y Operaciones
+de Tipos de Datos
+
+### Análisis del Problema.
 Transcripción del problema:
 Ejemplos de Valores y Operaciones
 de Tipos de Datos
-6.1. Objetivos
+### Objetivos
 • Mediante un ejemplo, demostrar la aplicación de tipos de datos.
-6.2. Temas
+### Temas
 • Tipos de datos.
 • Declaraciones.
 • Variables.
 • Valores.
-6.3. Problema
+### Problema
 Diseñar un programa C++ que ejemplifique la aplicación de los tipos de datos
 vistos en clases.
-6.4. Restricciones
+### Restricciones
 • No extraer valores de cin, usar valores literales (constantes).
-6.5. Tareas
+### Tareas
 • Este es un trabajo no estructurado, que consiste en escribir un programa que
 ejemplifique el uso de los tipos de datos básicos de C++ vistos en clase: bool,
 char, unsigned, int, double, y string
 
-Refinamiento:
+### Refinamiento:
 Se ejemplificará el uso de los disintos tipos de datos
 
-• Etapa #2: Diseño de la solución.
+### Diseño de la solución.
 
