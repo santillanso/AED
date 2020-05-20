@@ -32,23 +32,19 @@ Se diseñará un programa que muestre en pantalla los tipos de datos de c++ y al
 
 Tipos de datos de salida:
 
-Entero: int = numero1
+Entero: int = EDAD
 
-Numero con coma flotante de precision doble (64 bits): double = numero2
+Numero con coma flotante de precision doble (64 bits): double = PESO
 
-Numero con coma flotante de precision simple (32 bits): float = numero3
+Numero con coma flotante de precision simple (32 bits): float = ALTURA
 
-Caracter: char = letra
+Cadena de caracteres: char = nombre 
 
-Cadena de caracteres: char = palabr 
+Booleano: bool = imc
 
-Booleano: bool = numero4
-
-Número negativo: unsigned = numero5
-
-Secuancia de caracteres: string = cadena
+Secuancia de caracteres: Indice de masa corporal
 
 ### Diseño de la solución.
 
-Sólo hay salida de los distintos tipos de datos.
+Sólo hay salida de los distintos tipos de datos. Se realiza una operación matemática que ejemplifique una de las aplicaciones de dos tipos de datos.
 
