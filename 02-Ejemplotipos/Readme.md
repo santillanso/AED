@@ -27,7 +27,28 @@ ejemplifique el uso de los tipos de datos básicos de C++ vistos en clase: bool,
 char, unsigned, int, double, y string
 
 ### Refinamiento:
-Se ejemplificará el uso de los disintos tipos de datos
+
+Se diseñará un programa que muestre en pantalla los tipos de datos de c++ y algunas operaciones con los mismos.
+
+Tipos de datos de salida:
+
+Entero: int = numero1
+
+Numero con coma flotante de precision doble (64 bits): double = numero2
+
+Numero con coma flotante de precision simple (32 bits): float = numero3
+
+Caracter: char = letra
+
+Cadena de caracteres: char = palabr 
+
+Booleano: bool = numero4
+
+Número negativo: unsigned = numero5
+
+Secuancia de caracteres: string = cadena
 
 ### Diseño de la solución.
+
+Sólo hay salida de los distintos tipos de datos.
 
