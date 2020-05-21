@@ -48,3 +48,5 @@ Secuancia de caracteres: Indice de masa corporal
 
 Sólo hay salida de los distintos tipos de datos. Se realiza una operación matemática que ejemplifique una de las aplicaciones de dos tipos de datos.
 
+Mostrar resultados.
+
