@@ -2,6 +2,7 @@
 ### Legajo: 1288465
 ### Apellido: Santillan
 ### Nombre: Sonia
+
 ## Trabajo 7 - Funciones y Comparación de Valores en Punto Flotante — Celsius
 
 ### Análisis del Problema.
@@ -35,31 +36,13 @@ bool AreNear(double, double, double = 0.001);
 2. Escribir las pruebas.
 3. Escribir los prototipos.
 4. Escribir las definiciones.
-### Productos
-DD-Celsius
-|-- readme.md
-`-- Celsius.cpp
 
-### Refinamiento:
-
-Se diseñará un programa que muestre en pantalla los tipos de datos de c++ y algunas operaciones con los mismos.
-
-Tipos de datos de salida:
-
-Entero: int = EDAD
-
-Numero con coma flotante de precision doble (64 bits): double = PESO
-
-Numero con coma flotante de precision simple (32 bits): float = ALTURA
-
-Cadena de caracteres: char = nombre 
-
-Booleano: bool = imc
-
-Secuancia de caracteres: Indice de masa corporal
-
-### Diseño de la solución.
-
-Sólo hay salida de los distintos tipos de datos. Se realiza una operación matemática que ejemplifique una de las aplicaciones de dos tipos de datos.
-
-Mostrar resultados.
+#### Léxico
+Ingresar temperatura en Fahrenheit, leer temperatura ingresada, probar que se cumplen las condiciones par realizar la conversión, realizar la conversión, mostrar resultados.
+#### Pruebas
+assert( AreNear(0.0, celsius(32.0), 0.0001) == true)
+bool AreNear(double valor_exacto, double valor_calculado, double tolerancia)
+#### Prototipos
+double celsius(double fahrenheit)
+#### Definiciones
+double temperatura_f, temperatura_c
