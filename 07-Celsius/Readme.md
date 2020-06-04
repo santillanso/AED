@@ -38,7 +38,7 @@ bool AreNear(double, double, double = 0.001);
 4. Escribir las definiciones.
 
 #### Léxico
-celsius: R$\rightarrow$R/celsius(fahrenheit)= (5.0/9.0)*(fahrenheit-32.0)
+celsius: R $\rightarrow$ R/celsius(fahrenheit)= (5.0/9.0)*(fahrenheit-32.0)
 #### Pruebas
 assert( AreNear(0.0, celsius(32.0), 0.0001) == true)
 bool AreNear(double valor_exacto, double valor_calculado, double tolerancia)
