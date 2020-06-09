@@ -37,7 +37,7 @@ A partir de 1582, un año es bisiesto si cumple los siguientes criterios:
 -Pero sí es bisiesto si es divisible entre 400.  
 
 ## Modelo IPO  
-
+![Modelo IPO](https://github.com/santillanso/AED/blob/master/03-Bisiesto/IPO.png)
 ## Etapa #2: Diseño de la Solución
 1. Léxico, definición matemática de la función.  
 IsBisiesto: N &rightarrow; B / IsBisiesto (a) = t &and; (p &and; (&not; q &or; s))  
