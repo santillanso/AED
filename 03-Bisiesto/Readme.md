@@ -35,7 +35,7 @@ de la función.
 
 ## Etapa #2: Diseño de la Solución
 1. Léxico, definición matemática de la función.  
-IsBisiesto: N &rightarrow; B / IsBisiesto (a) = t &and; (p &and; (&tilde; q p&or; s))  
+IsBisiesto: N &rightarrow; B / IsBisiesto (a) = t &and; (p &and; (&tilde;q &or; s))  
 Donde:  
 B = {0,1}  
 p: a es divisible por 4  
