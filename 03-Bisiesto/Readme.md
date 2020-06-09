@@ -4,23 +4,23 @@
 ### Nombre: Sonia
 ### Trabajo 3 - Precedencia de Operadores — Bisiesto
 ## Objetivos
-• Demostrar el uso de operadores booleanos y expresiones complejas.
+- Demostrar el uso de operadores booleanos y expresiones complejas.
 ## Temas
-• Expresiones.
-• Operadores booleanos: and, or, y not.
-• Operador resto: %.
-• Asociatividad de Operadores: ID ó DI.
-• Precedencia de Operadores.
-• Orden de evaluación de Operandos.
-• Efecto de lado de una expresión.
+- Expresiones.
+- Operadores booleanos: and, or, y not.
+- Operador resto: %.
+- Asociatividad de Operadores: ID ó DI.
+- Precedencia de Operadores.
+- Orden de evaluación de Operandos.
+- Efecto de lado de una expresión.
 ## Problema
 Dado un año, determinar si es bisiesto.
 ## Restricciones
-• Desarrollar la lógica en una función.
-• El nombre de la función debe ser IsBisiesto 1
-• Aplicar operadores booleanos
-• No aplicar el operador condicional.
-• No aplicar if ni switch.
+- Desarrollar la lógica en una función.
+- El nombre de la función debe ser IsBisiesto 1
+- Aplicar operadores booleanos
+- No aplicar el operador condicional.
+- No aplicar if ni switch.
 ## Tareas
 1. Escribir el léxico, es decir, la definición matemática de la función.
 2. Escribir las pruebas.
@@ -35,7 +35,7 @@ de la función.
 
 ## Etapa #2: Diseño de la Solución
 1. Léxico, definición matemática de la función.  
-IsBisiesto: N &rightarrow; B / IsBisiesto (a) = t &and; (p &and; (&tilde;q &or; s))  
+IsBisiesto: N &rightarrow; B / IsBisiesto (a) = t &and; (p &and; (&not; q &or; s))  
 Donde:  
 B = {0,1}  
 p: a es divisible por 4  
