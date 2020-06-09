@@ -1,7 +1,11 @@
-###Precedencia de Operadores — Bisiesto
-##Objetivos
+## Santillanso
+### Legajo: 1288465
+### Apellido: Santillan
+### Nombre: Sonia
+### Trabajo 3 - Precedencia de Operadores — Bisiesto
+## Objetivos
 • Demostrar el uso de operadores booleanos y expresiones complejas.
-##Temas
+## Temas
 • Expresiones.
 • Operadores booleanos: and, or, y not.
 • Operador resto: %.
@@ -9,15 +13,15 @@
 • Precedencia de Operadores.
 • Orden de evaluación de Operandos.
 • Efecto de lado de una expresión.
-##Problema
+## Problema
 Dado un año, determinar si es bisiesto.
-##Restricciones
+## Restricciones
 • Desarrollar la lógica en una función.
 • El nombre de la función debe ser IsBisiesto 1
 • Aplicar operadores booleanos
 • No aplicar el operador condicional.
 • No aplicar if ni switch.
-##Tareas
+## Tareas
 1. Escribir el léxico, es decir, la definición matemática de la función.
 2. Escribir las pruebas.
 3. Escribir el prototipo.
