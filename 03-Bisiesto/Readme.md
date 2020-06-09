@@ -30,12 +30,13 @@ Dado un año, determinar si es bisiesto.
 de la función.
 
  ## Etapa #1: Análisis del problema  
-Dado un año determinar si es bisiesto o no.  
+ Hipótesis: Dado un año determinar si es bisiesto o no.  
 A partir de 1582, un año es bisiesto si cumple los siguientes criterios:
 -Es bisiesto si es divisible entre 4.
 -Pero no es bisiesto si es divisible entre 100.
 -Pero sí es bisiesto si es divisible entre 400.  
-###Modelo IPO  
+
+## Modelo IPO  
 
 ## Etapa #2: Diseño de la Solución
 1. Léxico, definición matemática de la función.  
