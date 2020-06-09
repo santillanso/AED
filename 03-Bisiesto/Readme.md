@@ -34,7 +34,7 @@ de la función.
 ◦ Modelo IPO.
 
 ## Etapa #2: Diseño de la Solución
-1. Léxico, definición matemática de la función.
+1. Léxico, definición matemática de la función.  
 IsBisiesto: N &rightarrow; B / IsBisiesto (a) = t &and; (p &and; (&tilde; q p&or; s))  
 Donde:  
 B = {0,1}  
@@ -52,9 +52,9 @@ t: a es mayor a 1582
 - assert( not IsBisiesto (1500));
 - assert( IsBisiesto (2000));
 - assert(not IsBisiesto (1590));
-3. Prototipo.
+3. Prototipo.  
 bool IsBisiesto (int a)
-4. Definición.
+4. Definición.  
 bool IsBisiesto(int a) {return a > 1582 and (a%4==0) and ((a%100!=0) or a%400==0);}
 5. Árbol de expresión.
 
