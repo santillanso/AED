@@ -35,8 +35,20 @@ de la función.
 
 ## Etapa #2: Diseño de la Solución
 1. Léxico, definición matemática de la función.
+IsBisiesto: N &rightarrow; B / IsBisiesto (a) = t &and;
 2. Pruebas.
+assert( IsBisiesto (1600));
+ assert( not IsBisiesto (1700));
+ assert( not IsBisiesto (1800));
+ assert( not IsBisiesto (1900));
+ assert( not IsBisiesto (1586));
+ assert( not IsBisiesto (1580));
+ assert( not IsBisiesto (1500));
+ assert( IsBisiesto (2000));
+ assert(not IsBisiesto (1590));
 3. Prototipo.
+bool IsBisiesto (int a)
 4. Definición.
+bool IsBisiesto(int a) {return a > 1582 and (a%4==0) and ((a%100!=0) or a%400==0);}
 5. Árbol de expresión.
 
