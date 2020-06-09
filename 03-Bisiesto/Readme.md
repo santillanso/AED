@@ -29,9 +29,13 @@ Dado un año, determinar si es bisiesto.
 5. Incluir en readme.md el árbol de expresión asociado a la expresión de retorno
 de la función.
 
- ## Etapa #1: Análisis del problema
-◦ Refinamiento del problema e Hipótesis de trabajo.
-◦ Modelo IPO.
+ ## Etapa #1: Análisis del problema  
+Dado un año determinar si es bisiesto o no.  
+A partir de 1582, un año es bisiesto si cumple los siguientes criterios:
+-Es bisiesto si es divisible entre 4.
+-Pero no es bisiesto si es divisible entre 100.
+-Pero sí es bisiesto si es divisible entre 400.  
+###Modelo IPO  
 
 ## Etapa #2: Diseño de la Solución
 1. Léxico, definición matemática de la función.  
