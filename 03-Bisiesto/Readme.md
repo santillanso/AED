@@ -56,5 +56,6 @@ t: a es mayor a 1582
 bool IsBisiesto (int a)
 4. Definición.  
 bool IsBisiesto(int a) {return a > 1582 and (a%4==0) and ((a%100!=0) or a%400==0);}
-5. Árbol de expresión.
+5. Árbol de expresión.  
+!(https://github.com/santillanso/AED/blob/master/03-Bisiesto/Arbol%20de%20expresi%C3%B3n.png)
 
