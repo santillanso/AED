@@ -28,3 +28,15 @@ Dado un año, determinar si es bisiesto.
 4. Escribir la definición.
 5. Incluir en readme.md el árbol de expresión asociado a la expresión de retorno
 de la función.
+
+ ## Etapa #1: Análisis del problema
+◦ Refinamiento del problema e Hipótesis de trabajo.
+◦ Modelo IPO.
+
+## Etapa #2: Diseño de la Solución
+1. Léxico, definición matemática de la función.
+2. Pruebas.
+3. Prototipo.
+4. Definición.
+5. Árbol de expresión.
+
