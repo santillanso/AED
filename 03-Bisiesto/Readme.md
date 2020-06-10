@@ -31,14 +31,16 @@ de la función.
 
  ## Etapa #1: Análisis del problema  
  Hipótesis: Dado un año determinar si es bisiesto o no.  
-A partir de 1582, un año es bisiesto si cumple los siguientes criterios:
--Es bisiesto si es divisible entre 4.
--Pero no es bisiesto si es divisible entre 100.
--Pero sí es bisiesto si es divisible entre 400.  
+ A partir de 1582, un año es bisiesto si cumple los siguientes criterios:
+- Es bisiesto si es divisible entre 4.
+- Pero no es bisiesto si es divisible entre 100.
+- Pero sí es bisiesto si es divisible entre 400.  
 
 ## Modelo IPO  
-![Modelo IPO](https://github.com/santillanso/AED/blob/master/03-Bisiesto/IPO.png)
-## Etapa #2: Diseño de la Solución
+![Modelo IPO](https://github.com/santillanso/AED/blob/master/03-Bisiesto/IPO.png)  
+
+## Etapa #2: Diseño de la Solución  
+
 1. Léxico, definición matemática de la función.  
 IsBisiesto: N &rightarrow; B / IsBisiesto (a) = t &and; (p &and; (&not; q &or; s))  
 Donde:  
@@ -47,6 +49,7 @@ p: a es divisible por 4
 q: a es divisible por 100  
 s: a es divisible por 400  
 t: a es mayor a 1582  
+
 2. Pruebas.
 - assert( IsBisiesto (1600));
 - assert( not IsBisiesto (1700));
@@ -56,11 +59,14 @@ t: a es mayor a 1582
 - assert( not IsBisiesto (1580));
 - assert( not IsBisiesto (1500));
 - assert( IsBisiesto (2000));
-- assert(not IsBisiesto (1590));
+- assert(not IsBisiesto (1590));  
+
 3. Prototipo.  
-bool IsBisiesto (int a)
+bool IsBisiesto (int a)  
+
 4. Definición.  
-bool IsBisiesto(int a) {return a > 1582 and (a%4==0) and ((a%100!=0) or a%400==0);}
+bool IsBisiesto(int a) {return a > 1582 and (a%4==0) and ((a%100!=0) or a%400==0);}  
+
 5. Árbol de expresión.  
 ![Árbol de expresión](https://github.com/santillanso/AED/blob/master/03-Bisiesto/Arbol%20de%20expresi%C3%B3n.png)
 
