@@ -1,1 +1,1 @@
-Punto = {(x,y) ∈ RxR = $R^{2}$}
+Punto = {(x,y) ∈ RxR = R^2}
