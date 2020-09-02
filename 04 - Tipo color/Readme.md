@@ -1,13 +1,18 @@
-##Objetivos
+## Santillanso
+### Legajo: 1288465
+### Apellido: Santillan
+### Nombre: Sonia
+### Trabajo 4 - Tipo color
+## Objetivos
 • Demostrar capacidad de construcción de tipos compuestos basados en tipos
 existentes atómicos.
-##Temas
+## Temas
 • Tipos.
 • Definición de conjunto de valores con struct.
 • Tipos enteros de ancho fijo.
 • Variables externas.
 • Variables const.
-##Problema
+## Problema
 Diseñar un tipo Color basado en el modelo RGB1, con tres canales de 8 bits.
 Todo color está compuesto por tres componentes: intensidad de red (rojo), de
 green (verde), y de blue (azul). Cada intensidad está en el rango [0, 255]. Definir
