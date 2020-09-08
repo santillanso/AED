@@ -1,4 +1,4 @@
-## Expresión matemática Color = { (rojo, verde, azul) ∈ N^3 / N = {0,255} }
+### Expresión matemática Color = { (rojo, verde, azul) ∈ N^3 / N = {0,255} }
 ## Tipocolor = Color^3
 ## Suma: Tipocolor -> Tipocolor
 ## Resta: Tipocolor -> Tipocolor
