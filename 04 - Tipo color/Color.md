@@ -1,5 +1,4 @@
-#### Expresión matemática Tipo de dato Tipocolor: Tipocolor = {(rojo, verde, azul) / rojo, verde, azul ∈ Color}
-#### Color = {(a, v, r) ∈ N^3 / N = {0,255}}
+#### Expresión matemática Tipo de dato Tipocolor: Tipocolor = {(rojo, verde, azul) / rojo, verde, azul ∈ N^3 / N = {0,255}}
 #### IsIgual: Tipocolor -> Bool
 #### Suma: Tipocolor -> Tipocolor/ Suma (color) = color + color
 #### Resta: Tipocolor -> Tipocolor
