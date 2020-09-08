@@ -43,3 +43,7 @@ compilación.
 7. Probar: Luego de las definiciones, deberíamos poder realizar el proceso de
 traducción completo (i.e., compilación y linkeo) sin errores. Una vez obtenido
 el programa ejecutable, deberíamos poder ejecutarlo sin errores.
+## Hipótesis
+1. Se pide realizar un programa que opere con estructuras de datos.
+## Refinamiento del problema
+1. Se definirá el tipo de dato Tipocolor, como un struct cque posee tres componentes: rojo, azul, verde; cada uno de estos compuesto por tres uint8_t (entero positivo que puede tomar valores del 0 al 255). A partir de esto, se formularán operaciones que permitan trabajar con este tipo de dato. 
