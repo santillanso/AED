@@ -5,4 +5,5 @@
 ### Resta: Tipocolor -> Tipocolor
 ### Mezcla: Tipocolor -> Tipocolor
 ### Mezcla2: : Tipocolor -> Tipocolor
-### Rango char: de-128 a 127, Rango unsigned char: 0 a 255
+#### Rango char: de-128 a 127
+#### Rango unsigned char: 0 a 255
