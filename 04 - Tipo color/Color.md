@@ -1,7 +1,7 @@
-#### Expresión matemática Color = { (rojo, verde, azul) ∈ N^3 / N = {0,255} }
-#### Tipocolor = Color^3
+#### Expresión matemática Tipocolor = {color / color ∈ N^3}
+#### color = {(azul, verde, rojo) ∈ N^3 / N = {0,255}}
 #### IsIgual: Tipocolor -> Bool
-#### Suma: Tipocolor -> Tipocolor
+#### Suma: Tipocolor -> Tipocolor/ Suma (color) = color + color
 #### Resta: Tipocolor -> Tipocolor
 #### Mezcla: Tipocolor -> Tipocolor
 #### Mezcla2: : Tipocolor -> Tipocolor
