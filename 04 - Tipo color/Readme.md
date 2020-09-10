@@ -52,8 +52,8 @@ el programa ejecutable, deberíamos poder ejecutarlo sin errores.
 1. Entrada: Color - Tipo de dato: Tipocolor {rojo (uint8_t), verde (uint8_t), azul (uint8_t)} -
 2. Proceso: Operaciones (Suma, Resta, Mezcla, IsIgual)
 3. Salida: 
--Suma: Color (Tipocolor)
--Resta: Color (Tipocolor)
--Mezcla: Color (Tipocolor)
--IsIgual: True/False (Bool)
+- Suma: Color (Tipocolor)
+- Resta: Color (Tipocolor)
+- Mezcla: Color (Tipocolor)
+- IsIgual: True/False (Bool)
 
