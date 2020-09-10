@@ -49,11 +49,11 @@ el programa ejecutable, deberíamos poder ejecutarlo sin errores.
 ## Refinamiento del problema
 1. Se definirá el tipo de dato Tipocolor, como un struct cque posee tres componentes: rojo, azul, verde; cada uno de estos compuesto por tres uint8_t (entero positivo que puede tomar valores del 0 al 255). A partir de esto, se formularán operaciones que permitan trabajar con este tipo de dato. 
 ## Modelo IPO
-1. Entrada: Color - Tipo de dato: Tipocolor (rojo, verde, azul) -
+1. Entrada: Color - Tipo de dato: Tipocolor {rojo (uint8_t), verde (uint8_t), azul (uint8_t)} -
 2. Proceso: Operaciones (Suma, Resta, Mezcla, IsIgual)
 3. Salida: 
-          - Suma: Color
-          - Resta: Color
-          - Mezcla: Color
-          - IsIgual: Bool
+-Suma: Color (Tipocolor)
+-Resta: Color (Tipocolor)
+-Mezcla: Color (Tipocolor)
+-IsIgual: True/False (Bool)
 
