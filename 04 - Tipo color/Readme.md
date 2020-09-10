@@ -44,6 +44,16 @@ compilación.
 traducción completo (i.e., compilación y linkeo) sin errores. Una vez obtenido
 el programa ejecutable, deberíamos poder ejecutarlo sin errores.
 ## Hipótesis
-1. Se pide realizar un programa que opere con estructuras de datos.
+1. Se pide diseñar un Tipo de dato compuesto, para representar colores según el modelo RGB y operar con los mismos.
+2. Para respetar el rango y tamaño del Tipo de dato a diseñar, se debe tener en cuenta que cada color tiene una intensidad que va del 0 al 255, lo que representa cada uno de los tres canales que componen a cada color.
 ## Refinamiento del problema
 1. Se definirá el tipo de dato Tipocolor, como un struct cque posee tres componentes: rojo, azul, verde; cada uno de estos compuesto por tres uint8_t (entero positivo que puede tomar valores del 0 al 255). A partir de esto, se formularán operaciones que permitan trabajar con este tipo de dato. 
+## Modelo IPO
+1. Entrada: Color - Tipo de dato: Tipocolor (rojo, verde, azul) -
+2. Proceso: Operaciones (Suma, Resta, Mezcla, IsIgual)
+3. Salida: 
+          - Suma: Color
+          - Resta: Color
+          - Mezcla: Color
+          - IsIgual: Bool
+
