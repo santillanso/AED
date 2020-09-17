@@ -58,11 +58,3 @@ GetCantidadLados, y Get_GetPerímetro.
 
 
 
-ENTRADA: Una estructura del tipo Poligono
-PROCESAMIENTO: Reduce en una unidad el indicador cantidad_vertices
-SALIDA: ninguna
-template unsigned getCantidadVertices(const T &t);
-
-ENTRADA: Una estructura del tipo Poligono ó Triangulo
-PROCESAMIENTO: Retorna la cantidad de vértices dada por cantidad_vertices
-SALIDA: Un numero natural representando la cantidad de vértices
