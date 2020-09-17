@@ -24,7 +24,7 @@ GetCantidadLados, y Get_GetPerímetro.
 ## Hipótesis
 -  Se pide diseñar un Tipo de dato para representar polígonos en el plano, compuestos de una cantidad finita de puntos y un color; y un conjunto de operaciones.
 ## Refinamiento del problema
--  Se definirá el tipo de dato Polígono, como un struct que posee tres componentes: 
+#### Se definirá el tipo de dato Polígono, como un struct que posee tres componentes: 
 - struct Poligono { unsigned n; array<Punto, 9> puntospoligono; Color colorpoligono;}
 1. con struct Punto {double x, y;}: puntos del arreglo
 2. n unsigned: número de puntos
