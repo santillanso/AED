@@ -56,4 +56,8 @@ el programa ejecutable, deberíamos poder ejecutarlo sin errores.
 - Resta: Color (Tipocolor)
 - Mezcla: Color (Tipocolor)
 - IsIgual: True/False (Bool)
+## Crédito extra
+Indicar porque, si no es posible usar uint8_t, es correcto usar unsigned char y no char.
+#### Rango char: de -128 a 127
+#### Rango unsigned char: 0 a 255
 
