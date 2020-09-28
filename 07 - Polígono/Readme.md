@@ -22,13 +22,7 @@ GetCantidadLados, y Get_GetPerímetro.
 2. Polígono.md // Especificación
 3. Polígono.cpp // Implementación y pruebas
 ## Hipótesis
--  Se pide diseñar un Tipo de dato para representar polígonos en el plano, compuestos de una cantidad finita de puntos y un color; y un conjunto de operaciones.
-## Refinamiento del problema
-#### Se definirá el tipo de dato Polígono, como un struct que posee tres componentes: 
-- struct Poligono { unsigned n; array<Punto, 9> puntospoligono; Color colorpoligono;}
-1. con struct Punto {double x, y;}: puntos del arreglo
-2. n unsigned: número de puntos
-3. string color: color del polígono
+-  Se pide diseñar un Tipo de dato para representar polígonos en el plano, compuestos de una cantidad finita de puntos, un color; y un conjunto de operaciones.
 ## Modelo IPO
 - Operaciones:
 1. AddVértice
@@ -55,6 +49,12 @@ GetCantidadLados, y Get_GetPerímetro.
 - ENTRADA: Struct Polígono
 - PROCESAMIENTO: Suma las distancias entre cada punto del polígono
 - SALIDA: double perimetro
+## Diseño de la solución
+#### Se definirá el tipo de dato Polígono, como un struct que posee tres componentes: 
+- struct Poligono { unsigned n; array<Punto, 9> puntospoligono; Color colorpoligono;} con:
+1. array<Punto, 9> puntospoligono: puntos del polígono, 9 número máximo de puntos
+2. n unsigned: número de puntos del polígono
+3. struct color: color del polígono
 
 
 
